@@ -41,6 +41,18 @@
 			<Item Name="VBD Data.ctl" Type="VI" URL="../controls/VBD Data.ctl"/>
 			<Item Name="VBD State.ctl" Type="VI" URL="../controls/VBD State.ctl"/>
 		</Item>
+		<Item Name="Images" Type="Folder">
+			<Item Name="Basic Setup.jpg" Type="Document" URL="../Images/Basic Setup.jpg"/>
+			<Item Name="Step 1.jpg" Type="Document" URL="../Images/Step 1.jpg"/>
+			<Item Name="Step 2.jpg" Type="Document" URL="../Images/Step 2.jpg"/>
+			<Item Name="Step 3.jpg" Type="Document" URL="../Images/Step 3.jpg"/>
+		</Item>
+		<Item Name="SubVI" Type="Folder">
+			<Item Name="FGV-Counter.vi" Type="VI" URL="../SubVIs/FGV-Counter.vi"/>
+			<Item Name="Instructions Popup.vi" Type="VI" URL="../SubVIs/Instructions Popup.vi"/>
+			<Item Name="Instructions Popup_VB setup.vi" Type="VI" URL="../SubVIs/Instructions Popup_VB setup.vi"/>
+			<Item Name="Connection Validator.vi" Type="VI" URL="../SubVIs/Connection Validator.vi"/>
+		</Item>
 		<Item Name="VBD Main.vi" Type="VI" URL="../VBD Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -76,10 +88,20 @@
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="VirtualBench.lvlib" Type="Library" URL="/&lt;vilib&gt;/VirtualBench/VirtualBench.lvlib"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
+				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
+				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
+				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
+				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
+				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 			</Item>
 			<Item Name="nilciuserapi.dll" Type="Document" URL="nilciuserapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
