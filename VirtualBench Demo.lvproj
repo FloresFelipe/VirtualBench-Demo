@@ -54,6 +54,7 @@
 			<Item Name="Connection Validator.vi" Type="VI" URL="../SubVIs/Connection Validator.vi"/>
 		</Item>
 		<Item Name="VBD Main.vi" Type="VI" URL="../VBD Main.vi"/>
+		<Item Name="Demo 1 - FGEN and MSO.vi" Type="VI" URL="../Demo 1 - FGEN and MSO.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
